@@ -33,9 +33,7 @@ attributes:
       - **hugemem** - (*80 cores*) This Pitzer node has 3TB of memory as
         well as 80 cores. There are only 4 of these nodes on Pitzer. A
         reservation may be required to use this node.
-      - **debug** - (*1-40 cores*) For short sessions (= 1 hour) the debug queue
-        will have the shortest wait time. This is only accessible during 8AM -
-        6PM, Monday - Friday. There are 6 of these nodes on Pitzer.
+
         
       [NVIDIA Tesla V100 GPUs]: http://www.nvidia.com/object/tesla-p100.html
       [CUDA]: https://developer.nvidia.com/cuda-zone
@@ -43,4 +41,3 @@ attributes:
       - [ "any",     "any"     ]
       - [ "gpu",     "gpu"     ]
       - [ "hugemem", "hugemem" ]
-      - [ "debug",   "debug"   ]

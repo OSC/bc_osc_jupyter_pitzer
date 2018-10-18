@@ -13,9 +13,6 @@
 batch_connect:
   template: "basic"
 script:
-  <%- if node_type == "debug" -%>
-  queue_name: "debug"
-  <%- end -%>
   native:
     resources:
       nodes: "1<%= props %>"
