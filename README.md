@@ -1,4 +1,4 @@
-# Batch Connect - OSC Jupyter Notebook
+# Batch Connect - OSC Jupyter Notebook On Pitzer
 
 ![GitHub Release](https://img.shields.io/github/release/osc/bc_osc_jupyter.svg)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
