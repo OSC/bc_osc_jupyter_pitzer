@@ -36,6 +36,22 @@
         MODULES: "python/2.7-conda5.2#{" cuda/9.2.88" if cuda}"
       }
     },
+    julia100: {
+      display_name: "Julia 1.0.0 [julia/1.0.0#{" cuda/9.2.88" if cuda}]",
+      language: "julia",
+      argv: [
+        wrapper,
+        "julia",
+        "-i",
+        "--startup-file=yes",
+        "--color=yes",
+        "/apps/julia/1.0.0/depot/packages/IJulia/0cLgR/src/kernel.jl",
+        "{connection_file}"
+      ],
+      env: {
+        MODULES: "julia/1.0.0#{" cuda/9.2.88" if cuda}"
+      }
+    }, 
   }
 -%>
 
