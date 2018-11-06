@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.10.0] - 2018-11-06
+### Changed
+- Forked from Owens to Pitzer
+
 ## [0.9.0] - 2018-09-20
 ### Added
 - Added kernel for Python 2.7 from Conda 5.2
@@ -70,18 +74,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.3.0] - 2017-12-07
 ### Added
 - Added helpful links in the app description and node type description.
-  [#17](https://github.com/OSC/bc_osc_jupyter/issues/17)
+  [#17](https://github.com/OSC/bc_osc_jupyter_pitzer/issues/17)
 
 ### Changed
 - Updated links in `README.md` to point to correct locations.
-  [#15](https://github.com/OSC/bc_osc_jupyter/issues/15)
+  [#15](https://github.com/OSC/bc_osc_jupyter_pitzer/issues/15)
 - Made log file more verbose.
 
 ### Fixed
 - Fixed some text formatting issues.
-  [#16](https://github.com/OSC/bc_osc_jupyter/issues/16)
+  [#16](https://github.com/OSC/bc_osc_jupyter_pitzer/issues/16)
 - Removed references to RStudio.
-  [#14](https://github.com/OSC/bc_osc_jupyter/issues/14)
+  [#14](https://github.com/OSC/bc_osc_jupyter_pitzer/issues/14)
 
 ## [0.2.1] - 2017-10-20
 ### Changed
@@ -89,7 +93,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - Removed need for message to user about waiting for server to start.
-  [#13](https://github.com/OSC/bc_osc_jupyter/issues/13)
+  [#13](https://github.com/OSC/bc_osc_jupyter_pitzer/issues/13)
 
 ## [0.2.0] - 2017-10-11
 ### Changed
@@ -120,21 +124,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Initial release!
 
-[Unreleased]: https://github.com/OSC/bc_osc_jupyter/compare/v0.9.0...HEAD
-[0.9.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.8.0...v0.9.0
-[0.8.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.7.0...v0.8.0
-[0.7.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.6.2...v0.7.0
-[0.6.2]: https://github.com/OSC/bc_osc_jupyter/compare/v0.6.1...v0.6.2
-[0.6.1]: https://github.com/OSC/bc_osc_jupyter/compare/v0.6.0...v0.6.1
-[0.6.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.5.0...v0.6.0
-[0.5.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.4.1...v0.5.0
-[0.4.1]: https://github.com/OSC/bc_osc_jupyter/compare/v0.4.0...v0.4.1
-[0.4.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.3.0...v0.4.0
-[0.3.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.2.1...v0.3.0
-[0.2.1]: https://github.com/OSC/bc_osc_jupyter/compare/v0.2.0...v0.2.1
-[0.2.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/OSC/bc_osc_jupyter/compare/v0.0.5...v0.1.0
-[0.0.5]: https://github.com/OSC/bc_osc_jupyter/compare/v0.0.4...v0.0.5
-[0.0.4]: https://github.com/OSC/bc_osc_jupyter/compare/v0.0.3...v0.0.4
-[0.0.3]: https://github.com/OSC/bc_osc_jupyter/compare/v0.0.2...v0.0.3
-[0.0.2]: https://github.com/OSC/bc_osc_jupyter/compare/v0.0.1...v0.0.2
+[Unreleased]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.10.0...HEAD
+[0.10.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.9.0...v0.10.0 
+[0.9.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.8.0...v0.9.0
+[0.8.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.7.0...v0.8.0
+[0.7.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.6.2...v0.7.0
+[0.6.2]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.6.1...v0.6.2
+[0.6.1]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.6.0...v0.6.1
+[0.6.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.5.0...v0.6.0
+[0.5.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.4.1...v0.5.0
+[0.4.1]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.4.0...v0.4.1
+[0.4.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.3.0...v0.4.0
+[0.3.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.2.1...v0.3.0
+[0.2.1]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.0.5...v0.1.0
+[0.0.5]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.0.4...v0.0.5
+[0.0.4]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.0.3...v0.0.4
+[0.0.3]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.0.2...v0.0.3
+[0.0.2]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.0.1...v0.0.2
