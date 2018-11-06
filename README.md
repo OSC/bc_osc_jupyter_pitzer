@@ -1,6 +1,6 @@
 # Batch Connect - OSC Jupyter Notebook On Pitzer
 
-![GitHub Release](https://img.shields.io/github/release/osc/bc_osc_jupyter.svg)
+![GitHub Release](https://img.shields.io/github/release/osc/bc_osc_jupyter_pitzer.svg)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 An interactive app designed for OSC OnDemand that launches a Jupyter Notebook
@@ -50,7 +50,7 @@ Again, you do not need to restart the app as it isn't a Passenger app.
 
 ## Contributing
 
-1. Fork it ( https://github.com/OSC/bc_osc_jupyter/fork )
+1. Fork it ( https://github.com/OSC/bc_osc_jupyter_pitzer/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
