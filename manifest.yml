@@ -5,8 +5,6 @@ subcategory: Servers
 role: batch_connect
 description: |
   This app will launch a [Jupyter Notebook] server using [Python] on the [Pitzer cluster].
-    <div class="alert alert-info"><strong>Julia kernels are not available yet on Pitzer. If you need assistence contact <a href="mailto:oschelp@osc.edu">oschelp@osc.edu</a>.</strong>
-  </div>
 
   [Jupyter Notebook]: https://jupyter.org/
   [Python]: https://www.python.org/
