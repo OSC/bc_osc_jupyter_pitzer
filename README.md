@@ -4,7 +4,7 @@
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 An interactive app designed for OSC OnDemand that launches a Jupyter Notebook
-server within an Owens batch job.
+server within an Pitzer batch job.
 
 ## Prerequisites
 
