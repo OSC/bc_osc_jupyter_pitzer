@@ -1,11 +1,11 @@
 ---
-name: Jupyter Notebook (Pitzer)
+name: Jupyter (Pitzer)
 category: Interactive Apps
 subcategory: Servers
 role: batch_connect
 description: |
-  This app will launch a [Jupyter Notebook] server using [Python] on the [Pitzer cluster].
+  This app will launch a [Jupyter] server using [Python] on the [Pitzer cluster].
 
-  [Jupyter Notebook]: https://jupyter.org/
+  [Jupyter]: https://jupyter.org/
   [Python]: https://www.python.org/
   [Pitzer cluster]: https://www.osc.edu/supercomputing/computing/pitzer
