@@ -77,13 +77,13 @@
       }
   end
 
-  cuda = context.node_type == "gpu"
+  cuda = (context.node_type == "gpu") ? " cuda/9.2.88" : ""
   wrapper = session.staged_root.join("launch_wrapper.sh")
   wrapper_log = session.staged_root.join("launch_wrapper.log")
 
   kernels = {
     python36conda: {
-      display_name: "Python 3.6 (Conda 5.2) [python/3.6-conda5.2#{" cuda/9.2.88" if cuda}]",
+      display_name: "Python 3.6 (Conda 5.2) [python/3.6-conda5.2#{cuda}]",
       language: "python",
       argv: [
         wrapper,
@@ -94,11 +94,11 @@
         "{connection_file}"
       ],
       env: {
-        MODULES: "xalt/latest python/3.6-conda5.2#{" cuda/9.2.88" if cuda}"
+        MODULES: "xalt/latest python/3.6-conda5.2#{cuda}"
       }
     },
     python27conda: {
-      display_name: "Python 2.7 (Conda 5.2) [python/2.7-conda5.2#{" cuda/9.2.88" if cuda}]",
+      display_name: "Python 2.7 (Conda 5.2) [python/2.7-conda5.2#{cuda}]",
       language: "python",
       argv: [
         wrapper,
@@ -109,7 +109,7 @@
         "{connection_file}"
       ],
       env: {
-        MODULES: "xalt/latest python/2.7-conda5.2#{" cuda/9.2.88" if cuda}"
+        MODULES: "xalt/latest python/2.7-conda5.2#{cuda}"
       }
     }, 
   }.tap do |hsh|
