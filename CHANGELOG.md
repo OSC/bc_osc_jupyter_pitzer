@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [0.14.0] - 2020-08-28
+### Changed
+- This app now raises an exception when trying to submit with the addition of
+  [#8](https://github.com/OSC/bc_osc_jupyter_pitzer/pull/8). This is because
+  we now have functionality to submit to multiple clusters and
+  [the generic application](https://github.com/OSC/bc_osc_jupyter) now submits
+  to pitzer.
+
 ## [0.13.0] - 2020-01-27
 ### Fixed
 - CI uses clone instead of fetch due to errors like 'fatal: git fetch-pack: expected shallow list'.
@@ -163,7 +171,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Initial release!
 
-[Unreleased]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.13.0...HEAD
+[Unreleased]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.14.0...HEAD
+[0.14.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.13.0...v0.14.0
 [0.13.0]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.12.2...v0.13.0
 [0.12.2]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.12.1...v0.12.2
 [0.12.1]: https://github.com/OSC/bc_osc_jupyter_pitzer/compare/v0.12.0...v0.12.1
