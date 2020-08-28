@@ -1,4 +1,9 @@
 <%-
+  
+  raise StandardError.new("This application no longer in use. We'll be removing it
+  in the coming days.  Please use the \"Jupyter (Owens and Pitzer)\" application and
+  choose the Pitzer cluster instead.")
+
   ppn   = num_cores.blank? ? 40 : num_cores.to_i
   props = case node_type
           when "gpu"
